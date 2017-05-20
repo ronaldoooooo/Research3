@@ -1,0 +1,109 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Research _Assignment</h:title>
+    <model>
+      <instance>
+        <data id="build_Research-Assignment_1495261854">
+          <meta>
+            <instanceID/>
+          </meta>
+          <Stud_No.214018125/>
+          <Detergents_Products/>
+          <Answer_1/>
+          <Answer_2/>
+          <Answer_3/>
+          <Answer_4/>
+          <Answer_6/>
+          <Answer_7/>
+          <Answer_8/>
+          <uAnswer_9/>
+          <Answer_10/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/Stud_No.214018125:label">
+            <value>RUBANGAKENE RONALD</value>
+          </text>
+          <text id="/data/Detergents_Products:label">
+            <value>Mukwano Industrial Limited</value>
+          </text>
+          <text id="/data/Answer_1:label">
+            <value>How familiar are you with Mukwano detergents products</value>
+          </text>
+          <text id="/data/Answer_2:label">
+            <value>Which of these Mukwano detergents products have you used?</value>
+          </text>
+          <text id="/data/Answer_3:label">
+            <value>How did you first hear about Mukwano detergents products.</value>
+          </text>
+          <text id="/data/Answer_4:label">
+            <value>Overall, how do you rate the quality of Mukwano detergents products.</value>
+          </text>
+          <text id="/data/Answer_6:label">
+            <value>What is it that you would most like to change about Mukwano detergents products</value>
+          </text>
+          <text id="/data/Answer_7:label">
+            <value>Would you recommend Mukwano detergents products to a friend or associate?</value>
+          </text>
+          <text id="/data/Answer_8:label">
+            <value>When was the last time you used Mukwano detergents products?</value>
+          </text>
+          <text id="/data/uAnswer_9:label">
+            <value>How often do you buy Mukwano detergents products</value>
+          </text>
+          <text id="/data/Answer_10:label">
+            <value>How likely are you to buy Mukwano detergents products in the future?</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Stud_No.214018125" type="string"/>
+      <bind nodeset="/data/Detergents_Products" type="string"/>
+      <bind nodeset="/data/Answer_1" type="string"/>
+      <bind nodeset="/data/Answer_2" type="string"/>
+      <bind nodeset="/data/Answer_3" type="string"/>
+      <bind nodeset="/data/Answer_4" type="string"/>
+      <bind nodeset="/data/Answer_6" type="string"/>
+      <bind nodeset="/data/Answer_7" type="string"/>
+      <bind nodeset="/data/Answer_8" type="string"/>
+      <bind nodeset="/data/uAnswer_9" type="string"/>
+      <bind nodeset="/data/Answer_10" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/Stud_No.214018125">
+      <label ref="jr:itext('/data/Stud_No.214018125:label')"/>
+    </input>
+    <input ref="/data/Detergents_Products">
+      <label ref="jr:itext('/data/Detergents_Products:label')"/>
+    </input>
+    <input ref="/data/Answer_1">
+      <label ref="jr:itext('/data/Answer_1:label')"/>
+    </input>
+    <input ref="/data/Answer_2">
+      <label ref="jr:itext('/data/Answer_2:label')"/>
+    </input>
+    <input ref="/data/Answer_3">
+      <label ref="jr:itext('/data/Answer_3:label')"/>
+    </input>
+    <input ref="/data/Answer_4">
+      <label ref="jr:itext('/data/Answer_4:label')"/>
+    </input>
+    <input ref="/data/Answer_6">
+      <label ref="jr:itext('/data/Answer_6:label')"/>
+    </input>
+    <input ref="/data/Answer_7">
+      <label ref="jr:itext('/data/Answer_7:label')"/>
+    </input>
+    <input ref="/data/Answer_8">
+      <label ref="jr:itext('/data/Answer_8:label')"/>
+    </input>
+    <input ref="/data/uAnswer_9">
+      <label ref="jr:itext('/data/uAnswer_9:label')"/>
+    </input>
+    <input ref="/data/Answer_10">
+      <label ref="jr:itext('/data/Answer_10:label')"/>
+    </input>
+  </h:body>
+</h:html>
